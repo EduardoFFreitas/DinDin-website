@@ -157,6 +157,9 @@ width: 477px;;
 .second-posts {
   padding: 70px 0px 100px 7px;
 }
+.conteiner-text{
+  width: 328px;
+}
 }
 
 @media only screen and (max-width: 500px) {
@@ -232,9 +235,7 @@ width: 477px;;
   width: 227px;
   padding: 0 21px 0 0;
 }
-.conteiner-text p {
-  width: 50%;
-}
+
 .second-text-area p {
   width: 223px;
   font-size: 15px;
@@ -248,3 +249,12 @@ width: 477px;;
   padding: 70px 0px 62px 7px;
 }
 }
+
+@media only screen and (max-width: 315px) {
+
+  .conteiner-text {
+    width: 304px;
+  }
+}
+
+
