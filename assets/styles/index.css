@@ -1,0 +1,342 @@
+.article-first {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 120px;
+  gap: 50px;
+}
+.educacao {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.educacao h1 {
+  font-size: 60px;
+  color: hsla(340, 100%, 63%, 1);
+}
+
+.educacao p {
+  font-size: 27px;
+  color: hsla(0, 0%, 33%, 1);
+}
+.educacao ul {
+  border: 2px solid hsla(340, 100%, 63%, 1);
+  border-radius: 62px;
+  width: 213px;
+  padding: 10px 25px;
+  align-items: center;
+}
+.educacao ul:hover{
+  background: rgba(255, 66, 129, 0.114);
+}
+.educacao ul li a {
+  text-decoration: none;
+  color: hsla(340, 100%, 63%, 1);
+  font-size: 27px;
+}
+
+.img-first img {
+  width: 500px;
+  height: auto;
+}
+.second-block {
+  background-color: #f7f7f7;
+  padding: 150px 150px 150px 150px;
+}
+
+.second-article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 90px;
+  flex-wrap: wrap;
+}
+.second-divs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.second-divs h2 {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 29px;
+  color: hsla(340, 100%, 63%, 1);
+}
+.second-divs p {
+  font-weight: 300;
+  font-size: 17px;
+  text-align: center;
+  width: 303px;
+}
+.second-divs img {
+  width: 250px;
+  height: 270px;
+}
+.btn-start-now {
+  color: white;
+  border: 2px solid hsla(340, 100%, 63%, 1);
+  font-weight: 400;
+  font-size: 20px;
+  margin-top: 15px;
+  border-radius: 62px;
+  padding: 9px 23px;
+  background-color: hsla(340, 100%, 63%, 1);
+}
+.link-comecar {
+  text-decoration: none;
+}
+.btn-start-now:hover{
+  background-color: rgb(193, 2, 66)
+}
+
+
+.third-article {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  row-gap: 80px;
+  padding: 119px 0 125px 0;
+  padding-left: 9%;
+  padding-right: 9%;
+}
+
+.third-title h3 {
+  font-weight: 700;
+  font-size: 37px;
+  color: #009688;
+  padding-left: 9%;
+  text-transform: uppercase;
+  margin: 109px 0 0 0;
+}
+
+.third-article div {
+  width: 500px;
+}
+
+.third-article div cite {
+  font-style: normal;
+  font-weight: 500;
+}
+
+.fourth-block {
+  background-color: #f7f7f7;
+}
+
+.section-fourth {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 90px;
+  flex-wrap: wrap;
+  padding: 0 60px 0 60px;
+}
+.fourth-title h4 {
+  color: hsla(174, 100%, 29%, 1);
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 37px;
+  margin-left: 198px;
+  padding: 30px 0 0 0;
+}
+.div-fourth div {
+  width: 319px;
+  height: 193px;
+  background-color: #c4c4c4;
+}
+.boxes-fourth h5 {
+  color: hsla(174, 100%, 29%, 1);
+  font-size: 27px;
+  margin: 5px 0 0 0;
+}
+.boxes-fourth p {
+  font-size: 18px;
+  margin: 5px 0 0 0;
+}
+.btn-all-posts {
+  border: 2px solid hsla(340, 100%, 63%, 1);
+  border-radius: 62px;
+  width: 213px;
+  padding: 10px 25px;
+  align-items: center;
+  margin: 56px 0 66px 0;
+}
+.btn-all-posts:hover{
+  background: rgba(255, 66, 129, 0.114);
+}
+.coteiner-btn-fourth {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.btn-all-posts a {
+  text-align: center;
+  text-decoration: none;
+  color: hsla(340, 100%, 63%, 1);
+  font-weight: 400;
+  font-size: 25px;
+}
+.fourth-a {
+  text-decoration: none;
+}
+@media only screen and (max-width: 1300px) {
+  .article-first {
+    /*arrumar a max-width*/
+    flex-direction: column-reverse;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .third-article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 119px 10px 29px 10px;
+  }
+  .third-article div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 243px;
+  }
+  .third-title h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 950px) {
+  .fourth-title h4 {
+    margin-left: 105px;
+    padding: 70px 0 0 0;
+  }
+  .third-title h3 {
+    font-weight: 700;
+    font-size: 37px;
+    color: #009688;
+    padding-left: 3%;
+    text-transform: uppercase;
+    margin: 109px 0 0 0;
+}
+}
+
+@media only screen and (max-width: 780px) {
+  .article-first {
+    /*arrumar a max-width*/
+    flex-direction: column-reverse;
+    align-self: center;
+    margin: 74px;
+  }
+
+  .educacao h1 {
+    font-size: 60px;
+  }
+  .educacao p {
+    font-size: 27px;
+  }
+  .educacao ul {
+    width: 213px;
+    padding: 10px 25px;
+  }
+  .educacao ul li a {
+    font-size: 27px;
+  }
+
+  .img-first img {
+    width: 256px;
+    height: auto;
+  }
+  .second-block {
+    background-color: #f7f7f7;
+    padding: 150px 150px 56px 150px;
+  }
+}
+
+@media only screen and (max-width: 635px) {
+
+  .second-divs h2 {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    color: hsla(340, 100%, 63%, 1);
+    text-align: center;
+}
+
+
+}
+@media only screen and (max-width: 600px) {
+  .article-first {
+    /*arrumar a max-width*/
+    flex-direction: column-reverse;
+    align-self: center;
+    margin: 74px;
+  }
+
+  .educacao h1 {
+    font-size: 35px;
+  }
+  .educacao p {
+    font-size: 17px;
+  }
+  .educacao ul {
+    width: 136px;
+    padding: 10px 25px;
+  }
+  .educacao ul li a {
+    font-size: 17px;
+  }
+
+  .img-first img {
+    width: 256px;
+    height: auto;
+  }
+  .second-block {
+    background-color: #f7f7f7;
+    padding: 150px 0px 56px 0px;
+    text-align: center;
+  }
+  .btn-all-posts {
+    padding: 8px 13px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .article-first {
+    margin: 51px;
+  }
+  .fourth-title h4 {
+    font-size: 30px;
+    margin-left: 33px;
+  }
+  .third-title h3 {
+    padding-left: 60px;
+  }
+  @media only screen and (max-width: 350px) {
+    .article-first {
+      margin: 74px 0 20px 0;
+    }
+    .second-divs p {
+      
+      width: 250px;
+    }
+  }
+}
+@media only screen and (max-width: 350px) {
+  .div-fourth div {
+    width: 249px;
+  }
+  .third-title h3 {
+    padding-left: 15px;
+  }
+  .img-first img {
+    width: 183px;
+  }
+}

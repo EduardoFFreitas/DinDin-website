@@ -1,0 +1,147 @@
+.banner-body {
+  display: flex;
+  justify-content: space-between;
+  padding: 34px 212px 35px 252px;
+  gap: 50px;
+  align-content: center;
+  margin: 0 0 0px 0;
+}
+.banner-text {
+  width: 449px;
+  margin: 65px 0 0 0;
+}
+.banner-text h1 {
+  font-weight: 700;
+  font-size: 47px;
+  color: #009688;
+}
+.banner-text p {
+  font-weight: 300;
+  font-size: 20px;
+}
+.links-section {
+  background-color: #e5e5e5;
+}
+.links-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 90px;
+  flex-wrap: wrap;
+  padding: 116px 0px 135px 0px;
+}
+
+.grey-box {
+  width: 518px;
+  height: 259px;
+  background-color: #c4c4c4;
+}
+.link-article {
+  width: 523px;
+}
+
+.link-title a {
+  text-decoration: none;
+  color: #ff4081;
+  font-weight: 500;
+  font-size: 30px;
+}
+.link-title a:hover{
+  color: #bc003f;
+}
+.link-article p {
+  font-weight: 300;
+  font-size: 17px;
+}
+
+@media only screen and (max-width: 1350px) {
+  .banner-body {
+    padding: 34px 79px 35px 153px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .banner-body {
+    padding: 34px 65px 35px 96px;
+  }
+  .grey-box {
+    width: 447px;
+  }
+}
+@media only screen and (max-width: 1015px) {
+  .banner-body {
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 0;
+    padding: 87px 65px 103px 96px;
+  }
+  .links-section {
+    padding: 116px 110px 135px 107px;
+  }
+  .banner-text h1 {
+    font-size: 36px;
+  }
+  .banner-text h1 {
+    font-size: 36px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .banner-text {
+    width: 269px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .links-section {
+    padding: 116px 201px 135px 176px;
+  }
+}
+@media only screen and (max-width: 540px) {
+  .grey-box {
+    width: 299px;
+  }
+  .links-section {
+    padding: 116px 125px 135px 115px;
+  }
+  .image-div img {
+    width: 200px;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  .banner-text {
+    width: 200px;
+  }
+  .banner-text h1 {
+    font-size: 20px;
+  }
+  .banner-text p {
+    font-size: 13px;
+  }
+  .link-title a {
+    font-size: 20px;
+  }
+  .link-article p {
+    font-size: 13px;
+  }
+  .banner-body {
+    padding: 87px 65px 103px 83px;
+  }
+  .links-section {
+    padding: 116px 46px 135px 60px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .grey-box {
+    width: 164px;
+    height: 164px;
+  }
+  .links-section {
+    padding: 116px 77px 135px 84px;
+  }
+  .link-article {
+    width: 483px;
+  }
+}

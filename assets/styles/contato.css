@@ -1,0 +1,134 @@
+.conteiner {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 100px 0;
+}
+
+.corpo-form {
+  width: 500px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  border: none;
+}
+
+.inputs {
+  width: 668px;
+  height: 25px;
+  border: 1px solid #686868;
+  border-radius: 7px;
+  margin: 0 0 15px 0;
+  padding: 0 0 0 30px;
+}
+
+.mensagem-area {
+  border: 1px solid #686868;
+  border-radius: 7px;
+  margin: 0 0 15px 0;
+  width: 668px;
+  height: 250px;
+  resize: none;
+  padding: 15px 0 0 30px;
+}
+.contato {
+  font-weight: 700;
+  font-size: 40px;
+  color: #ff4081;
+  margin: 0 0 0 12px;
+}
+
+.btn {
+  background: #ff4081;
+  border-radius: 50px;
+  border: none;
+  color: white;
+  width: 120px;
+  height: 35px;
+  margin: 20px 0 0 0;
+}
+.btn:hover{
+  background: #ff0357;
+}
+.inputs::placeholder {
+  color: #58555d;
+  font-weight: 400;
+  font-size: 16px;
+  
+}
+
+.mensagem-area::placeholder {
+  color: #58555d;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 0px 0 0 0px;
+}
+@media only screen and (max-width: 1300px) {
+  .imagem img {
+    width: 300px;
+    height: auto;
+  }
+}
+@media only screen and (max-width: 1185px) {
+  .imagem img {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  .mensagem-area {
+    width: 553px;
+  }
+  .inputs {
+    width: 553px;
+  }
+}
+@media only screen and (max-width: 620px) {
+  .mensagem-area {
+    width: 396px;
+  }
+  .inputs {
+    width: 396px;
+  }
+  .corpo-form {
+    width: 256px;
+  }
+  .btn {
+    margin: 20px 0 0 57px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .mensagem-area {
+    width: 328px;
+  }
+  .inputs {
+    width: 328px;
+  }
+  .corpo-form {
+    width: 113px;
+  }
+  .btn {
+    margin: 20px 0 0 91px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .mensagem-area {
+    width: 236px;
+  }
+  .inputs {
+    width: 236px;
+  }
+  .corpo-form {
+    width: 71px;
+  }
+  .btn {
+    margin: 20px 0 0 59px;
+  }
+  .contato {
+    margin: 20px 0 0 49px;
+  }
+}

@@ -1,0 +1,285 @@
+.first-article {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+}
+.first-article h1 {
+  font-weight: 500;
+  font-size: 50px;
+  color: #FF4081;
+  margin: 96px 0 3px 0;
+
+}
+
+.first-article time {
+  font-weight: 300;
+  font-size: 18px;
+  color: #9D9D9D;
+  margin: 0px 0 74px 0;
+}
+
+.first-text {
+  padding: 74px 0 165px 0;
+  width: 1000px;
+}
+
+.first-h3 {
+  padding: 0 317px 0 0;
+  color: hsla(174, 53%, 38%, 1);
+  font-weight: 500;
+  font-size: 26px;
+  margin: 97px 0px 34px;
+}
+.second-h3 {
+  padding: 0 409px 0 0;
+  color: hsla(174, 53%, 38%, 1);
+  font-weight: 500;
+  font-size: 26px;
+  margin: 97px 0px 34px;
+}
+
+.first-article p {
+  
+  font-weight: 300;
+  font-size: 18px;
+  color: #000000;
+  margin: 23px 0 0 0;
+}
+.grey-square{
+  width: 1000px;
+  height: 500px;
+  background-color: #c4c4c4;
+}
+
+
+
+.second-block {
+  background-color: #f7f7f7;
+  padding: 0px 0px 150px 0px;
+}
+
+.second-article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 90px;
+  flex-wrap: wrap;
+}
+
+.second-title{
+  font-weight: 500;
+  font-size: 50px;
+  color: #FF4081;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 91px 0px 49px 0px;
+}
+
+.second-divs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.second-divs h2 {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 29px;
+  color: hsla(340, 100%, 63%, 1);
+}
+.second-divs p {
+  font-weight: 300;
+  font-size: 17px;
+  text-align: center;
+  width: 250px;
+}
+.second-divs img {
+  width: 250px;
+  height: 270px;
+}
+.btn-start-now {
+  color: white;
+  border: 2px solid hsla(340, 100%, 63%, 1);
+  font-weight: 400;
+  font-size: 20px;
+  margin-top: 15px;
+  border-radius: 62px;
+  padding: 9px 23px;
+  background-color: hsla(340, 100%, 63%, 1);
+}
+.link-comecar {
+  text-decoration: none;
+}
+.btn-start-now:hover{
+  background-color: rgb(193, 2, 66)
+}
+
+@media only screen and (max-width: 1100px) {
+.first-text {
+  width: 822px;
+}
+.grey-square {
+  width: 822px;
+  height: 417px;
+}
+}
+
+@media only screen and (max-width: 925px) {
+.first-text {
+  width: 606px;
+}
+.grey-square {
+  width: 606px;
+  height: 309px;
+}
+.first-article h1 {
+  font-size: 40px;
+  text-align: center;
+}
+.first-h3 {
+  padding: 0;
+}
+.second-h3 {
+  padding: 0;
+}
+}
+
+@media only screen and (max-width: 780px) {
+.second-title {
+  font-size: 40px;
+}
+.second-title {
+  padding: 0px 0px 0px 0px;
+}
+.second-block {
+  background-color: #f7f7f7;
+  padding: 74px 0px 56px 0px;
+}
+}
+
+@media only screen and (max-width: 925px) {
+.first-text {
+  width: 514px;
+}
+.grey-square {
+  width: 514px;
+  height: 263px;
+}
+.first-article h1 {
+  font-size: 40px;
+}
+.first-h3 {
+  padding: 0;
+}
+.second-h3 {
+  padding: 0;
+}
+}
+
+@media only screen and (max-width: 635px) {
+
+.second-divs h2 {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 29px;
+  color: hsla(340, 100%, 63%, 1);
+  text-align: center;
+}
+
+}
+@media only screen and (max-width: 600px) {
+  
+.second-block {
+  background-color: #f7f7f7;
+  padding: 45px 0px 56px 0px;
+}
+.btn-all-posts {
+  padding: 8px 13px;
+}
+}
+
+@media only screen and (max-width: 550px) {
+.first-text {
+  width: 375px;
+  }
+.grey-square {
+  width: 375px;
+  height: 179px;
+}
+.first-article h1 {
+  font-size: 40px;
+}
+.first-h3 {
+  padding: 0;
+}
+.second-h3 {
+  padding: 0;
+}
+}
+@media only screen and (max-width: 500px) {
+.second-title {
+  font-size: 40px;
+  text-align: center;
+}
+}
+
+@media only screen and (max-width: 470px) {
+.first-text {
+  width: 289px;
+}
+.grey-square {
+  width: 289px;
+  height: 154px;
+}
+
+.first-article h1 {
+  font-size: 30px;
+}
+.first-h3 {
+  padding: 0;
+  font-size: 20px;
+}
+.second-h3 {
+  padding: 0;
+  font-size: 20px;
+}
+}
+@media only screen and (max-width: 350px) {
+.second-title {
+  font-size: 35px;
+  text-align: center;
+}
+.first-text {
+  width: 234px;
+  padding: 31px 0 97px 0;
+}
+.grey-square {
+   width: 234px;
+  height: 126px;
+}
+.first-article h1 {
+  font-size: 30px;
+}
+.first-h3 {
+  padding: 0;
+  font-size: 20px;
+}
+.second-h3 {
+  padding: 0;
+  font-size: 20px;
+}
+.first-article time {
+  font-size: 15px;
+}
+}
+
+@media only screen and (max-width: 300px) {
+.second-title {
+  font-size: 30px;
+  text-align: center;
+}
+}

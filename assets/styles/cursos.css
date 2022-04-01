@@ -1,0 +1,167 @@
+.banner-title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 60px 0px 40px 114px;
+}
+.banner-title h1 {
+  color: #ff4081;
+  font-weight: 700;
+  font-size: 60px;
+  margin: 0 0 0 0;
+}
+.banner-title p {
+  color: #555555;
+  font-weight: 400;
+  font-size: 20px;
+  margin: 0 0 0 0;
+}
+
+.cursos-conteiner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0px 0px 115px 116px;
+}
+
+.artigo-curso {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  gap: 30px;
+  margin: 43px 0 55px 0;
+}
+
+.inside-org h2 {
+  font-weight: 700;
+  font-size: 35px;
+  color: #ff4081;
+}
+.inside-org p {
+  font-weight: 300;
+  font-size: 18px;
+  color: #000000;
+}
+.inside-org {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: sp;
+  align-content: center;
+}
+.btn {
+  width: 138px;
+  height: 25px;
+  padding: 10px 38px;
+  background: #419488;
+  border-radius: 62px;
+  margin: 30px 0 0 0;
+}
+.btn:hover{
+  background: #005c4e;
+}
+.btn a {
+  text-decoration: none;
+  color: white;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.imagem-div img {
+  width: 359px;
+  height: 388px;
+}
+
+.barra-cinza {
+  width: 1200px;
+  margin: 60px 0 60px 0;
+  height: 4px;
+  background: #c4c4c4;
+}
+@media only screen and (max-width: 1350px) {
+  .barra-cinza {
+    width: 1110px;
+  }
+  .cursos-conteiner {
+    padding: 0px 0px 115px 60px;
+  }
+}
+@media only screen and (max-width: 1210px) {
+  .barra-cinza {
+    width: 934px;
+  }
+  .cursos-conteiner {
+    padding: 0px 57px 115px 52px;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .barra-cinza {
+    width: 90%;
+  }
+  .cursos-conteiner {
+    padding: 0px 43px 115px 60px;
+  }
+  .banner-title {
+    margin: 60px 0px 40px -13px;
+    align-items: center;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .artigo-curso {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .inside-org {
+    align-items: center;
+  }
+  .cursos-conteiner {
+    padding: 0px 56px 56px 49px;
+  }
+  .barra-cinza {
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .artigo-curso {
+    flex-direction: column;
+  }
+  .cursos-conteiner {
+    padding: 0px 56px 56px 23px;
+  }
+  .barra-cinza {
+    width: 110%;
+  }
+  .banner-title {
+    margin: 60px 0px 40px 13px;
+    align-items: center;
+  }
+  .banner-title h1 {
+    font-size: 50px;
+  }
+  .imagem-div img {
+    width: 321px;
+    height: 321px;
+  }
+  .btn {
+    margin: 30px 0 0 0px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .barra-cinza {
+    width: 120%;
+  }
+  .imagem-div img {
+    width: 253px;
+    height: 253px;
+  }
+  .cursos-conteiner {
+    padding: 0px 56px 56px 14px;
+  }
+  .btn {
+    margin: 30px 0 0 0px;
+  }
+}

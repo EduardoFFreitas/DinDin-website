@@ -1,0 +1,250 @@
+.first-conteiner {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  padding: 100px 284px;
+  gap: 126px;
+}
+
+.conteiner-text {
+  width: 470px;
+}
+
+.conteiner-text h1 {
+  color: #ff4081;
+  font-weight: 700;
+  font-size: 49px;
+  width: 412px;
+}
+
+.conteiner-text p {
+  font-weight: 300;
+font-size: 20px;
+color: #000000;
+}
+
+.second-block {
+  background-color: #f7f7f7;
+}
+
+.second-posts {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  padding: 100px 284px;
+  gap: 80px;
+}
+.grey-bar {
+  height: 3px;
+  width: 75%;
+  background-color: #C4C4C4;;
+  margin: 0 0 0 222px;
+}
+
+.second-text-area h2{
+  font-weight: 700;
+  font-size: 35px;
+  color: #FF4081;
+  margin-top: 0;
+}
+.second-text-area p{
+  font-weight: 300;
+font-size: 20px;
+color: #000000;
+width: 477px;;
+}
+
+.youtube {
+  width: 458px;
+  height: 258px;
+}
+
+@media only screen and (max-width: 1900px) {
+.first-conteiner {
+  padding: 100px 395px 100px 302px;
+}
+}
+@media only screen and (max-width: 1400px) {
+.first-conteiner {
+  padding: 100px 395px 100px 197px;
+}
+.second-posts {
+  padding: 100px 395px 100px 197px;
+}
+}
+@media only screen and (max-width: 1250px) {
+.first-conteiner {
+  padding: 100px 395px 100px 150px;
+}
+.second-posts {
+  padding: 100px 395px 100px 148px;
+}
+.second-text-area h2{
+  text-align: center;
+}
+.grey-bar {
+  margin: 0 0 0 106px;
+}
+.image-first img{
+  width: 367px;
+  height: 317px;
+}
+}
+
+@media only screen and (max-width: 1250px) {
+  .first-conteiner {
+    flex-direction: column-reverse;
+    padding: 100px 395px 100px 395px;
+  }
+  .conteiner-text{
+    width: 470px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0 0 0 16px;
+  }
+  .image-first img{
+    width: 367px;
+    height: 317px;
+    padding: 0 66px 0 0;
+  }
+  .second-posts {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    padding: 135px 345px 100px 315px;;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+.grey-bar {
+  margin: 0 0 0 68px;
+}
+.first-conteiner{
+  padding: 100px 0px 100px 0px;
+}
+.second-posts {
+  padding: 135px 0px 100px 7px;
+}
+.youtube {
+  width: 353px;
+  height: 199px;
+}
+.conteiner-text {
+  padding: 0 0 0 0px;
+}
+}
+
+@media only screen and (max-width: 550px){
+.first-conteiner {
+  gap: 63px;
+  width: 10px;
+  padding: 100px 0px 100px 264px;
+}
+.conteiner-text p {
+  width: 70%;
+}
+.conteiner-text h1{
+  text-align: center;
+}
+.image-first img {
+  width: 314px;
+  height: 278px;
+  padding: 0 0 0 0px;
+}
+.second-posts {
+  padding: 70px 0px 100px 7px;
+}
+}
+
+@media only screen and (max-width: 500px) {
+  .second-text-area p{
+    width: 300px;
+  }
+  .first-conteiner {
+    padding: 100px 0px 100px 209px;
+  }
+  .image-first img {
+    width: 269px;
+    height: 255px;
+  }
+  .conteiner-text h1 {
+    font-size: 38px;
+  }
+  .conteiner-text P {
+    font-size: 18px;
+  }
+  .conteiner-text {
+    padding: 0 0 0 2px;
+  }
+}
+@media only screen and (max-width: 480px)  {
+.image-first {
+  padding: 0 0 0 18px;
+}
+.conteiner-text {
+  padding: 0 0 0 18px;
+}
+.youtube { 
+  width: 260px;
+  height: 159px;
+}
+}
+
+@media only screen and (max-width: 415px) {
+  .first-conteiner {
+  padding: 100px 0px 100px 194px;
+}
+.image-first {
+  padding: 0 0 0 0px;
+}
+.first-conteiner {
+  padding: 100px 0px 100px 166px;
+}
+.image-first {
+  padding: 0 0 0 0px;
+}
+.conteiner-text h1 {
+  font-size: 30px;
+  width: 373px;
+}
+.conteiner-text p {
+  font-size: 15px;
+}
+.grey-bar {
+  margin: 0 0 0 43px;
+}
+}
+
+@media only screen and (max-width: 350px) {
+  .first-conteiner {
+    padding: 100px 0px 100px 127px;
+}
+.image-first img {
+  width: 213px;
+    height: 202px;
+}
+
+.conteiner-text h1 {
+  font-size: 30px;
+  width: 227px;
+  padding: 0 21px 0 0;
+}
+.conteiner-text p {
+  width: 50%;
+}
+.second-text-area p {
+  width: 223px;
+  font-size: 15px;
+}
+.youtube {
+  width: 219px;
+  height: 138px;
+}
+.second-posts {
+  gap: 44px;
+  padding: 70px 0px 62px 7px;
+}
+}
