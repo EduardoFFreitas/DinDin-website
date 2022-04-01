@@ -77,6 +77,15 @@
   }
 }
 
+@media only screen and (max-width: 800px) { 
+  .inputs {
+    width: 643px;
+  }
+
+  .mensagem-area {
+    width: 643px;
+  }
+}
 @media only screen and (max-width: 770px) {
   .mensagem-area {
     width: 553px;
@@ -85,6 +94,15 @@
     width: 553px;
   }
 }
+@media only screen and (max-width: 670px) {
+  .mensagem-area {
+    width: 475px;
+  }
+  .inputs {
+    width: 475px;
+  }
+}
+
 @media only screen and (max-width: 620px) {
   .mensagem-area {
     width: 396px;
@@ -115,12 +133,20 @@
   }
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 430px) {
   .mensagem-area {
-    width: 236px;
+    width: 288px;
   }
   .inputs {
-    width: 236px;
+    width: 288px;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .mensagem-area {
+    width: 237px;
+  }
+  .inputs {
+    width: 237px;
   }
   .corpo-form {
     width: 71px;
@@ -130,5 +156,23 @@
   }
   .contato {
     margin: 20px 0 0 49px;
+  }
+}
+
+@media only screen and (max-width: 340px) {
+  .mensagem-area {
+    width: 170px;
+  }
+  .inputs {
+    width: 170px;
+  }
+  .contato {
+    margin: 9px 0 0 38px;
+  }
+  .btn {
+    margin: 20px 0 0 44px;
+  }
+  .conteiner {
+    margin: 38px 0;
   }
 }
