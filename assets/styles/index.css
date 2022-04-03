@@ -1,9 +1,10 @@
 .article-first {
+  max-width: 1440px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  margin: 120px;
+  margin: 100px 120px 120px 283px;
   gap: 50px;
 }
 .educacao {
@@ -38,20 +39,22 @@
 }
 
 .img-first img {
-  width: 500px;
+  width: 399px;
   height: auto;
 }
 .second-block {
   background-color: #f7f7f7;
-  padding: 150px 150px 150px 150px;
+  display: flex;
+  justify-content: center;
 }
 
 .second-article {
+  max-width: 1440px;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 90px;
-  flex-wrap: wrap;
+  padding: 63px 0 58px 0;
 }
 .second-divs {
   display: flex;
@@ -59,6 +62,7 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 30px;
+  width: 341px;
 }
 .second-divs h2 {
   font-weight: 700;
@@ -72,9 +76,12 @@
   text-align: center;
   width: 303px;
 }
-.second-divs img {
-  width: 250px;
-  height: 270px;
+.second-divs div img {
+  height: 350px;
+}
+
+.imagem-chata {
+  height: 300px;  
 }
 .btn-start-now {
   color: white;
@@ -93,38 +100,58 @@
   background-color: rgb(193, 2, 66)
 }
 
+.third-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 
 .third-article {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
-  align-items: center;
-  row-gap: 80px;
-  padding: 119px 0 125px 0;
-  padding-left: 9%;
-  padding-right: 9%;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  width: 1100px;
+  column-gap: 76px;
+  row-gap: 76px;
+  padding: 49px 10px 62px 45px;
 }
-
+.text-box-third {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.third-block-cites {
+  display: flex;
+  width: 471px;
+  gap: 26px;
+}
 .third-title h3 {
   font-weight: 700;
   font-size: 37px;
   color: #009688;
-  padding-left: 9%;
   text-transform: uppercase;
-  margin: 109px 0 0 0;
+  margin-right: 168px;
+    padding: 26px 418px 0 0;
 }
 
-.third-article div {
-  width: 500px;
-}
+
 
 .third-article div cite {
   font-style: normal;
   font-weight: 500;
 }
 
+.fourth-coteiner {
+  max-width: 1440px;
+}
 .fourth-block {
   background-color: #f7f7f7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .section-fourth {
@@ -133,15 +160,13 @@
   align-items: center;
   gap: 90px;
   flex-wrap: wrap;
-  padding: 0 60px 0 60px;
 }
 .fourth-title h4 {
   color: hsla(174, 100%, 29%, 1);
   text-transform: uppercase;
   font-weight: 700;
   font-size: 37px;
-  margin-left: 198px;
-  padding: 30px 0 0 0;
+  padding: 26px 493px 0 0;
 }
 .div-fourth div {
   width: 319px;
@@ -185,52 +210,69 @@
   text-decoration: none;
 }
 
-@media only screen and (max-width: 1980px) {
-  .third-article {
-    padding-left: 12%;
-  }
+@media only screen and (max-width: 1440px) {
+  .article-first {
+
+    margin: 96px;
+    }
+  
 }
 @media only screen and (max-width: 1300px) {
+  .second-article {
+    gap: 89px;
+}
+.fourth-title h4 {
+  padding: 26px 0 0 0;
+}
+}
+@media only screen and (max-width: 1050px) {
   .article-first {
     /*arrumar a max-width*/
     flex-direction: column-reverse;
   }
 }
 @media only screen and (max-width: 1200px) {
+  .img-first img {
+    width: 340px;
+    height: auto;
+}
+.educacao h1 {
+  text-align: center;
+}
+.educacao p {
+  text-align: center;
+}
   .third-article {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    flex-direction: column;
-    padding: 119px 10px 29px 10px;
+    width: 509px;
   }
-  .third-article div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  .second-article {
     flex-wrap: wrap;
-    width: 243px;
-  }
-  .third-title h3 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
+}
+.third-title h3 {
+  padding: 70px 0 0 0;
+  flex-direction: column;
+  margin: 0;
+}
+.fourth-coteiner {
+  padding: 0 60px 0 60px;
+}
+.fourth-title h4 {
+  text-align: center;
+}
 }
 @media only screen and (max-width: 950px) {
   .fourth-title h4 {
-    margin-left: 105px;
-    padding: 70px 0 0 0;
+    text-align: center;
   }
   .third-title h3 {
     font-weight: 700;
     font-size: 37px;
     color: #009688;
-    padding-left: 3%;
     text-transform: uppercase;
-    margin: 109px 0 0 0;
+    text-align: center;
 }
 }
 
@@ -240,6 +282,12 @@
     flex-direction: column-reverse;
     align-self: center;
     margin: 74px;
+  }
+  .third-block-cites {
+    width: 347px;
+}
+  .third-article {
+    flex-direction: column;
   }
 
   .educacao h1 {
@@ -262,8 +310,20 @@
   }
   .second-block {
     background-color: #f7f7f7;
-    padding: 150px 150px 56px 150px;
-  }
+    padding: 17px 150px 8px 150px;
+}
+.third-article {
+  width: 474px;
+}
+.third-title h3 {
+
+  font-size: 27px;
+
+}
+.section-fourth {
+  
+  padding: 0 0px 0 0px;
+}
 }
 
 @media only screen and (max-width: 635px) {
@@ -306,12 +366,18 @@
   }
   .second-block {
     background-color: #f7f7f7;
-    padding: 150px 0px 56px 0px;
+    padding: 17px 150px 8px 150px;
     text-align: center;
   }
   .btn-all-posts {
     padding: 8px 13px;
   }
+  .third-block-cites {
+    width: 347px;
+}
+.text-box-third {
+  width: 224px;
+}
 }
 
 @media only screen and (max-width: 500px) {
@@ -319,12 +385,30 @@
     margin: 51px;
   }
   .fourth-title h4 {
-    font-size: 30px;
-    margin-left: 33px;
+    font-size: 27px;
   }
-  .third-title h3 {
-    padding-left: 60px;
-  }
+  
+  .third-article {
+    padding: 49px 0px 29px 11px;
+    width: 336px;
+}
+
+.third-block-cites {
+  width: 298px;
+}
+.second-divs {
+  width: 302px;
+}
+.second-block {
+  background-color: #f7f7f7;
+  padding: 17px 0px 8px 0px;
+  text-align: center;
+}
+.fourth-coteiner {
+  padding: 0;
+}
+
+}
   @media only screen and (max-width: 350px) {
     .article-first {
       margin: 74px 0 20px 0;
@@ -333,16 +417,42 @@
       
       width: 250px;
     }
+    .div-fourth div {
+      width: 226px;
+      height: 193px;
+      background-color: #c4c4c4;
   }
+  .boxes-fourth{
+    width: 225px;
+  }
+
+  .third-article {
+    padding: 49px 0px 29px 0px;
+    width: 262px;
 }
+.third-block-cites {
+  width: 242px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.second-divs {
+  width: 234px;
+}
+.imagem-chata {
+  height: 273px;
+}
+  }
 @media only screen and (max-width: 350px) {
   .div-fourth div {
-    width: 249px;
+    width: 213px;
   }
-  .third-title h3 {
-    padding-left: 15px;
+  
   }
   .img-first img {
     width: 183px;
   }
+  .text-box-third {
+    width: 181px;
 }
